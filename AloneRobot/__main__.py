@@ -112,7 +112,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="💘 𝐆υℓυρ 💘", url=f"https://t.me/{SUPPORT_CHAT}"),
-        InlineKeyboardButton(text="❤️‍🔥 𝐂нαnnυℓ ❤️‍🔥", url=f"https://t.me/https:/T_SERIES_UPDATE"),
+        InlineKeyboardButton(text="❤️‍🔥 𝐂нαnnυℓ ❤️‍🔥", url=f"https://t.me/T_SERIES_UPDATE"),
     ],
     [
         InlineKeyboardButton(text="🫣 𝐌σí 𝐏αρα 🫣", url=f"https://t.me/NOOBS_ALWAYS_OP"),
@@ -412,17 +412,16 @@ def Alone_about_callback(update: Update, context: CallbackContext):
                         InlineKeyboardButton(
                             text="🫣 𝐌σí 𝐏αρα 🫣", url=f"https://t.me/NOOBS_ALWAYS_OP"
                         ),
-[
-        InlineKeyboardButton
-        (text="🫣 𝐌σí 2n∂ 𝐏αρα 🫣", url=f"https://t.me/XO_TERA_BAAP_ON_FIRE"
-     ),
                         InlineKeyboardButton(
                             text="🙃 𝐌ч 𝐒σurcε 🙂", 
                             url="https://t.me/DOSTO_KI_M3HFIL",
                         ),
                     ],
                     [
-                        InlineKeyboardButton(text="🦋 вα¢к 🦋", callback_data="Alone_back"),
+                        InlineKeyboardButton(text="🫣 𝐌σí 2n∂ 𝐏αρα 🫣", url=f"https://t.me/XO_TERA_BAAP_ON_FIRE"),
+                    ],
+                    [
+                        InlineKeyboardButton(text="✯ вαϲк ✯", callback_data="Alone_back"),
                     ],
                 ]
             ),
@@ -549,7 +548,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
         )
     elif query.data == "Music_2":
         query.message.edit_text(
-            text=f"*» 🎄αυтн υsεяs🎄 «*"
+            text=f"*» 🎄αuтн υsεяs🎄 «*"
             f"""
 
 ᴀᴜᴛʜ ᴜsᴇʀs ᴄᴀɴ ᴜsᴇ ᴀᴅᴍɪɴ ʀɪɢʜᴛs ɪɴ ᴛʜᴇ ʙᴏᴛ ᴡɪᴛʜᴏᴜᴛ ᴀᴅᴍɪɴ ʀɪɢʜᴛs ɪɴ ᴛʜᴇ ᴄʜᴀᴛ. [ᴀᴅᴍɪɴs ᴏɴʟʏ]
@@ -574,7 +573,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
         )
     elif query.data == "Music_3":
         query.message.edit_text(
-            text=f"*» 🎄вℓαcкℓιsт cнαт🎄 «*"
+            text=f"*» 🎄вℓαcкℓιsт cнαтs🎄 «*"
             f""" 
 
 ʙʟᴀᴄᴋʟɪsᴛ ғᴇᴀᴛᴜʀᴇ [ᴏɴʟʏ ғᴏʀ sᴜᴅᴏᴇʀs]
@@ -690,7 +689,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
         )
     elif query.data == "Music_7":
         query.message.edit_text(
-            text=f"*» 🎄ρℓαүℓιsт ғεαтυяε🎄 «*"
+            text=f"*» 🎄ρℓαүℓιsтs ғεαтυяεs🎄 «*"
             f"""
 
 /playlist : ᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴀᴠᴇᴅ ᴩʟᴀʏʟɪsᴛ ᴏɴ sᴇʀᴠᴇʀs.
@@ -734,7 +733,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
         )
     elif query.data == "Music_9":
         query.message.edit_text(
-            text=f"*» 🎸 ρℓαү ғεαтυяε🎸 «*"
+            text=f"*» 🎸 ρℓαү ғεαтυяεs 🎸 «*"
             f"""
 
 •c sᴛᴀɴᴅs ғᴏʀ ᴄʜᴀɴɴᴇʟ ᴩʟᴀʏ.
@@ -761,7 +760,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
         )
     elif query.data == "Music_10":
         query.message.edit_text(
-            text=f"*» 🌲gεт sтαятε∂ ωιтн вσт🌲 «*"
+            text=f"*» 🌲ɢᴇᴛ sᴛᴀʀᴛᴇᴅ ᴡɪᴛʜ ʙᴏᴛ🌲 «*"
             f"""
 
 🥶 ʜᴇʀᴏᴋᴜ :
@@ -810,9 +809,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 /sudolist : sʜᴏᴡs ᴛʜᴇ sᴜᴅᴏ ᴜsᴇʀs ᴏғ ᴍᴜsɪᴄ ʙᴏᴛ.
 
-☆............𝙱𝚈 » [ᴛᴏxɪᴄ](https://t.me/NOOBS_ALWAYS_OP)............☆
-"""
-,
+☆............𝙱𝚈 » [ᴛᴏxɪᴄ](https://t.me/NOOBS_ALWAYS_OP)............☆""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -894,7 +891,7 @@ def get_help(update: Update, context: CallbackContext):
             chat.id,
             text,
             InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="✯ вαϲк ✯", callback_data="help_back")]]
+                [[InlineKeyboardButton(text="✯ вαcк ✯", callback_data="help_back")]]
             ),
         )
 
@@ -967,7 +964,7 @@ def settings_button(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="◁",
+                                text="◀",
                                 callback_data="stngs_back({})".format(chat_id),
                             )
                         ]
@@ -1170,7 +1167,7 @@ def main():
 
     dispatcher.add_error_handler(error_callback)
 
-    LOGGER.info("🌱𝐁𝐎𝐓🌷𝐒𝐓𝐀𝐑𝐓𝐄𝐃🌺𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐅𝐔𝐋𝐋𝐔🌱\n\n╔═════ஜ۩۞۩ஜ════╗\n\n♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝗧𝗢𝗫𝗜𝗖♨️\n\n╚═════ஜ۩۞۩ஜ════╝")
+    LOGGER.info("🌱𝐁𝐎𝐓🌷𝐒𝐓𝐀𝐑𝐓𝐄𝐃🌺𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐅𝐔𝐋𝐋𝐘🥀\n\n╔═════ஜ۩۞۩ஜ════╗\n\n♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝗧𝗢𝗫𝗜𝗖♨️\n\n╚═════ஜ۩۞۩ஜ════╝")
     updater.start_polling(timeout=15, read_latency=4, clean=True)
 
     if len(argv) not in (1, 3, 4):
