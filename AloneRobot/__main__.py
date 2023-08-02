@@ -416,12 +416,13 @@ def Alone_about_callback(update: Update, context: CallbackContext):
         InlineKeyboardButton
         (text="🫣 𝐌σí 2n∂ 𝐏αρα 🫣", url=f"https://t.me/XO_TERA_BAAP_ON_FIRE"
     ),
+    [
                         InlineKeyboardButton(
                             text="🙃 𝐌ч 𝐒σurcε 🙂", 
                             url="https://t.me/DOSTO_KI_M3HFIL",
                         ),
-                    ],
-                    [
+    ]
+                   [
                         InlineKeyboardButton(text="🦋 вα¢к 🦋", callback_data="Alone_back"),
                     ],
                 ]
